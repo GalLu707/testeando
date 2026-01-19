@@ -22,6 +22,7 @@ public class Skibidi {
         System.out.println("ingrese su skibidi nombre");
         nombre=sn.next();
         System.out.println("su nombre es: "+ nombre);
+        System.out.println("hola");
     }
     
 }
