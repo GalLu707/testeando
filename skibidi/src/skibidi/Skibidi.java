@@ -8,6 +8,7 @@ package skibidi;
  *
  * @author USER
  */
+import java.util.Scanner;
 public class Skibidi {
 
     /**
@@ -15,6 +16,12 @@ public class Skibidi {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        Scanner sn = new Scanner(System.in);
+        sn.useDelimiter("\n");
+        String nombre;
+        System.out.println("ingrese su skibidi nombre");
+        nombre=sn.next();
+        System.out.println("su nombre es: "+ nombre);
     }
     
 }
